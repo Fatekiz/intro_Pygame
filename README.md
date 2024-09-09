@@ -6,6 +6,8 @@
 
 <img src="assets/Intro_Pygame.png"/> 
 <hr> 
+
 ## Motivo
+
 Aquí estaré subiendo las clases sobre pygames que nos irá enseñando el docente "Victor Saldivia", donde aprenderemos lo básico de la libreria pygame
 para poder desarrollar el proyecto del segundo semestre de mi carrera en POO: "videojuego en pygame".
