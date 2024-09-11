@@ -1,4 +1,5 @@
 import pygame
+import math
 
 class Triangulo():
     def __init__(self,x,y):
@@ -22,3 +23,8 @@ class Triangulo():
             self.y -= self.velocidad
         if teclas[pygame.K_DOWN]:
             self.y += self.velocidad
+        if teclas[pygame.K_UP] and teclas[pygame.K_RIGHT]:
+            movimiento_x = self.velocidad/math.sqrt(2)
+            movimiento_y = movimiento_x
+            self.y -= movimiento_y
+            self.x += movimiento_x
